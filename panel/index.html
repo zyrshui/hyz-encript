@@ -10,11 +10,12 @@
         <option value="0">web-desktop</option>
         <option value="1">web-mobile</option>
         <option value="2">jsb-link</option>
+        <option value="3">微信小游戏</option>
     </ui-prop>
     <ui-prop name="加密目录" id="buildFloder" readonly type="string" value="kkk"></ui-prop>
-    <ui-prop name="加密签名" id="input_encriptSign" type="string" value="sign_123"></ui-prop>
-    <ui-prop name="加密密钥" id="input_encriptKey" type="string" value="key_456"></ui-prop>
-    <ui-prop name="开启文件名混淆" id="needMixFilename" type="boolean" value=false></ui-prop>
+    <ui-prop name="加密签名" id="input_encriptSign" type="string" readonly value="sign_123" tooltip="联系管理员修改"></ui-prop>
+    <ui-prop name="加密密钥" id="input_encriptKey" type="string" readonly value="key_456" tooltip="联系管理员修改"></ui-prop>
+    <ui-prop name="开启文件名混淆" id="needMixFilename"  disabled type="boolean" value=false></ui-prop>
     <ui-prop name="文件名混淆签名" id="input_nameMixSign" disabled type="string" value="" tooltip="跟原文件名一起算md5码"></ui-prop>
 </div>
 
